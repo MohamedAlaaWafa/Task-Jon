@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+    font-family: monospace;
+}
+
+.home {
+    width: 80%;
+    margin: auto;
+    font-family: monospace;
+}
+
+.home .nav {
+    background-color: rgba(255, 0, 0, 0);
+    width: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.home .nav .jon {
+    color: white;
+}
+
+.home .nav .links li {
+    display: inline;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.home .nav .links li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.home .nav .getintouch button {
+    background-color: rgb(247, 247, 17);
+    width: 130px;
+    height: 50px;
+    border-radius: 2px;
+    border-width: 1px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* End OF NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAV */
+
+.home .br{
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+} 
+
+.home .midcontent{
+    width:100%;
+    background-color: rgb(0, 0, 0);
+ }
+.home .midcontent .mid1 h2{
+    color: white;
+    font-size: 40px;
+    width: 50%;
+}
+
+.home .midcontent p{
+    color:rgb(197, 186, 186);
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.home .midcontent .famous{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.home .midcontent .famous img{
+    margin: 20px;
+}
+/* end midcontent11111111111111111111111111111111111111111 */
+
+.home .midcontent .mid2{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+.home .midcontent .mid2 .spense{
+    width: 45%;
+}
+
+.home .midcontent .mid2 .spense img{
+    border-radius: 3px;
+    width: 100%;
+}
+.home .midcontent .mid2 i{
+    color: white;
+    font: 20px;
+}
+.home .midcontent .mid2 .spense h2 a{
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: 32px;
+}
+
+.home .midcontent .mid2 .yelp{
+    width: 45%;
+}
+
+.home .midcontent .mid2 .yelp img{
+    width:100%;
+    border-radius: 3px;
+}
+
+.home .midcontent .mid2 .yelp h2 a{
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: 32px;
+}
+/* midcontent22222222222222222222222222222222222222222 enddddddddddddddddddddddddddddddddddddddddd */
+
+.footer{
+    width: 100%;
+    background-color: #212529;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.footer .foot1{
+    width: 40%;
+    padding-left: 5px;
+}
+
+.footer .foot1 h2{
+    font-size: 25px;
+    color: white;
+}
+
+.footer .foot1 p{
+    font-size: 18px;
+    margin-top:12px;
+    padding:10px;
+    color:rgb(197, 186, 186);
+}
+.footer .foot2{
+    width: 45%;
+}
+
+.footer .foot2 p{
+    font-size: 20px;
+    color: rgb(197, 186, 186);
+    padding-top: 20px;
+
+}
+
+.footer2{
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 100px;
+}
+
+.footer2 .inter{
+    width: 50%;
+}
+.footer2 .inter h2{
+    color: white;
+    font-size: 35px;
+}
+
+.footer2 .inter p{
+    font-size: 20px;
+    color:rgb(197, 186, 186);
+    margin-top: 15px;
+}
+ 
+.footer2 .inter button{
+    background-color: rgb(247, 247, 17);
+    width: 130px;
+    height: 50px;
+    border-radius: 2px;
+    border-width: 1px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/* end of foooooooooooooooooooooooooooteeeeeeeeeeeeeeeeeeeeeeeeeeeerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr */
+
+.contact-me{
+    background-color: #212529;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items:baseline;
+    justify-content:space-between ;
+}
+.contat-me1{
+    
+}
+.contact-me .contact{
+    width:30%;
+}
+
+.contact-me .contact h2{
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    padding-left: 153px;
+}
+
+.contact-me .icons{
+    width:30%;  
+}
+
+.contact-me .icons a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
